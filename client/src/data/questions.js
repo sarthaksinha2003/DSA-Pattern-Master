@@ -11,27 +11,27 @@ export const QUESTION_DATA = {
         "Find the Highest Altitude",
         "Maximum Difference Between Increasing Elements",
         "Best Time to Buy and Sell Stock",
-        "Best Time to Buy and Sell Stock II"
+        "Best Time to Buy and Sell Stock II",
       ],
       "Two Pointers - Opposite Ends": [
         "Two Sum II - Input Array Is Sorted",
         "Container With Most Water",
         "Valid Palindrome",
         "Reverse String",
-        "Trapping Rain Water"
+        "Trapping Rain Water",
       ],
       "Two Pointers - Same Direction": [
         "Remove Duplicates from Sorted Array",
         "Remove Duplicates from Sorted Array II",
         "Move Zeroes",
         "Squares of a Sorted Array",
-        "Is Subsequence"
+        "Is Subsequence",
       ],
       "Two Pointers - Partitioning": [
         "Sort Colors",
         "Partition Array According to Given Pivot",
         "Wiggle Sort",
-        "Sort Array by Parity"
+        "Sort Array by Parity",
       ],
       "Prefix Sum": [
         "Range Sum Query - Immutable",
@@ -40,13 +40,13 @@ export const QUESTION_DATA = {
         "Continuous Subarray Sum",
         "Number of Subarrays with Sum Equals Goal",
         "Find the Middle Index in Array",
-        "Maximum Size Subarray Sum Equals K"
+        "Maximum Size Subarray Sum Equals K",
       ],
       "Difference Array": [
         "Range Addition",
         "Corporate Flight Bookings",
         "Car Pooling",
-        "Shifting Letters"
+        "Shifting Letters",
       ],
       "Kadane Family": [
         "Maximum Subarray",
@@ -54,7 +54,7 @@ export const QUESTION_DATA = {
         "Maximum Product Subarray",
         "Maximum Sum Circular Subarray",
         "Maximum Subarray Sum with One Deletion",
-        "K-Concatenation Maximum Sum"
+        "K-Concatenation Maximum Sum",
       ],
       "Sorting + Scan": [
         "Merge Intervals",
@@ -63,7 +63,7 @@ export const QUESTION_DATA = {
         "Meeting Rooms",
         "Meeting Rooms II",
         "Interval List Intersections",
-        "Minimum Number of Arrows to Burst Balloons"
+        "Minimum Number of Arrows to Burst Balloons",
       ],
       "Greedy on Array": [
         "Jump Game",
@@ -72,7 +72,7 @@ export const QUESTION_DATA = {
         "Candy",
         "Lemonade Change",
         "Assign Cookies",
-        "Queue Reconstruction by Height"
+        "Queue Reconstruction by Height",
       ],
       "Binary Search on Array": [
         "Binary Search",
@@ -82,7 +82,7 @@ export const QUESTION_DATA = {
         "Find Minimum in Rotated Sorted Array",
         "Find Minimum in Rotated Sorted Array II",
         "Search a 2D Matrix",
-        "Search a 2D Matrix II"
+        "Search a 2D Matrix II",
       ],
       "Array Edge / Index Logic": [
         "Find the Duplicate Number",
@@ -93,7 +93,7 @@ export const QUESTION_DATA = {
         "Rotate Image",
         "Spiral Matrix",
         "Spiral Matrix II",
-        "Next Permutation"
+        "Next Permutation",
       ],
       "Array Math / Counting": [
         "Product of Array Except Self",
@@ -101,14 +101,14 @@ export const QUESTION_DATA = {
         "Find All Numbers Disappeared in an Array",
         "Degree of an Array",
         "Fair Candy Swap",
-        "Relative Sort Array"
+        "Relative Sort Array",
       ],
       "Array Advanced Traversal": [
         "Subarray Sums Divisible by K",
         "Continuous Subarray Sum",
         "Shortest Unsorted Continuous Subarray",
         "Maximum Length of Repeated Subarray",
-        "Maximum Width Ramp"
+        "Maximum Width Ramp",
       ],
       "End of ARRAYS": [
         "Largest Number",
@@ -117,7 +117,7 @@ export const QUESTION_DATA = {
         "Monotonic Array",
         "Find Lucky Integer in an Array",
         "Count Hills and Valleys in an Array",
-        "Count Elements with Strictly Smaller and Greater Elements"
+        "Count Elements with Strictly Smaller and Greater Elements",
       ],
       "Buffer / Completion": [
         "Check If Array Is Sorted and Rotated",
@@ -129,8 +129,8 @@ export const QUESTION_DATA = {
         "Longest Continuous Increasing Subsequence",
         "Minimum Operations to Make the Array Increasing",
         "Sum of All Odd Length Subarrays",
-        "Find the Difference of Two Arrays"
-      ]
+        "Find the Difference of Two Arrays",
+      ],
     },
     "B. SLIDING WINDOW": {
       "Fixed Window": [
@@ -143,7 +143,7 @@ export const QUESTION_DATA = {
         "Maximum Points You Can Obtain from Cards",
         "Grumpy Bookstore Owner",
         "Maximum Sum of Distinct Subarrays with Length K",
-        "Maximum Sum of Almost Unique Subarray"
+        "Maximum Sum of Almost Unique Subarray",
       ],
       "Variable Window - MAX Length": [
         "Longest Substring Without Repeating Characters",
@@ -160,7 +160,7 @@ export const QUESTION_DATA = {
         "Longest Arithmetic Subarray of Given Difference",
         "Longest Subarray with Sum <= K",
         "Longest Subarray with At Most K Zeros",
-        "Longest Semi-Alternating Substring"
+        "Longest Semi-Alternating Substring",
       ],
       "Variable Window - MIN Length": [
         "Minimum Size Subarray Sum",
@@ -172,7 +172,7 @@ export const QUESTION_DATA = {
         "Minimum Window Subsequence",
         "Minimum Swaps to Group All 1's Together",
         "Minimum Swaps to Group All 1's Together II",
-        "Minimum Number of Flips to Make the Binary String Alternating"
+        "Minimum Number of Flips to Make the Binary String Alternating",
       ],
       "Count-Based Window": [
         "Find All Anagrams in a String",
@@ -184,7 +184,7 @@ export const QUESTION_DATA = {
         "Count Complete Subarrays in an Array",
         "Number of Substrings Containing All Three Characters",
         "Count Subarrays Where Max Element Appears at Least K Times",
-        "Number of Substrings with Only 1s"
+        "Number of Substrings with Only 1s",
       ],
       "Window with Cost / Budget": [
         "Longest Repeating Character Replacement",
@@ -195,7 +195,7 @@ export const QUESTION_DATA = {
         "Maximum Length of Semi-Repeated Substring",
         "Longest Substring with At Most K Replacements",
         "Substring with Largest Variance",
-        "Maximum Fruits Harvested After at Most K Steps"
+        "Maximum Fruits Harvested After at Most K Steps",
       ],
       "Sliding Window - Edge & Variants": [
         "Maximum Erasure Value",
@@ -207,7 +207,7 @@ export const QUESTION_DATA = {
         "Count Substrings with At Least K Distinct Characters",
         "Substrings That Begin and End With the Same Letter",
         "Longest Binary Subsequence Less Than or Equal to K",
-        "Maximum Length Substring With Two Occurrences"
+        "Maximum Length Substring With Two Occurrences",
       ],
       "Completion / Buffer": [
         "Find the Longest Balanced Substring of a Binary String",
@@ -234,8 +234,8 @@ export const QUESTION_DATA = {
         "Longest Substring with Exactly Two Distinct Characters",
         "Subarrays with K Odd Numbers",
         "Maximum Length of Subarray with Exactly K Zeros",
-        "Longest Subarray with At Least K Repeating Values"
-      ]
+        "Longest Subarray with At Least K Repeating Values",
+      ],
     },
     "C. HASHMAP / HASHSET": {
       "Frequency Counting": [
@@ -253,7 +253,7 @@ export const QUESTION_DATA = {
         "Find Lucky Integer in an Array",
         "Number of Pairs of Strings With Concatenation Equal to Target",
         "Make Array Zero by Subtracting Equal Amounts",
-        "Redistribute Characters to Make All Strings Equal"
+        "Redistribute Characters to Make All Strings Equal",
       ],
       "Seen-Before / Lookup": [
         "Contains Duplicate",
@@ -268,7 +268,7 @@ export const QUESTION_DATA = {
         "Longest Consecutive Sequence",
         "Unique Number of Occurrences",
         "Find the Difference of Two Arrays",
-        "Check if Array Pairs Are Divisible by K"
+        "Check if Array Pairs Are Divisible by K",
       ],
       "Prefix Sum to Index Map": [
         "Subarray Sum Equals K",
@@ -280,7 +280,7 @@ export const QUESTION_DATA = {
         "Contiguous Array",
         "Binary Subarrays with Sum",
         "Count Subarrays with Given XOR",
-        "Count Subarrays Where Max Element Appears at Least K Times"
+        "Count Subarrays Where Max Element Appears at Least K Times",
       ],
       "Grouping / Bucketing": [
         "Group Anagrams",
@@ -292,7 +292,7 @@ export const QUESTION_DATA = {
         "Display Table of Food Orders in a Restaurant",
         "Find Players With Zero or One Losses",
         "Sort Array by Parity II",
-        "Divide Array Into Equal Pairs"
+        "Divide Array Into Equal Pairs",
       ],
       "State Compression": [
         "Single Number",
@@ -304,7 +304,7 @@ export const QUESTION_DATA = {
         "Find Subarrays With Equal Sum",
         "Check If Numbers Are Ascending in a Sentence",
         "Maximum Length of a Concatenated String with Unique Characters",
-        "Count Subarrays With Fixed Bounds"
+        "Count Subarrays With Fixed Bounds",
       ],
       "HashSet Logic": [
         "Intersection of Two Arrays",
@@ -316,7 +316,7 @@ export const QUESTION_DATA = {
         "Find All Numbers Disappeared in an Array",
         "Find All Duplicates in an Array",
         "Check if One String Swap Can Make Strings Equal",
-        "Longest Nice Substring"
+        "Longest Nice Substring",
       ],
       "HashMap Edge / Variants": [
         "Check if Array Is Good",
@@ -350,8 +350,8 @@ export const QUESTION_DATA = {
         "Find the Longest Balanced Substring",
         "Check If a String Contains All Binary Codes of Size K",
         "Count the Number of Special Characters",
-        "Largest Unique Number"
-      ]
+        "Largest Unique Number",
+      ],
     },
     "D. BINARY SEARCH": {
       "Classic Binary Search": [
@@ -364,7 +364,7 @@ export const QUESTION_DATA = {
         "First Bad Version",
         "Find Smallest Letter Greater Than Target",
         "Peak Index in a Mountain Array",
-        "Check If N and Its Double Exist"
+        "Check If N and Its Double Exist",
       ],
       "Lower / Upper Bound": [
         "Find First and Last Position of Element in Sorted Array",
@@ -374,7 +374,7 @@ export const QUESTION_DATA = {
         "Kth Missing Positive Number",
         "Find Right Interval",
         "Find Distance Value Between Two Arrays",
-        "Special Array With X Elements Greater Than or Equal X"
+        "Special Array With X Elements Greater Than or Equal X",
       ],
       "Rotated Sorted Array": [
         "Search in Rotated Sorted Array",
@@ -382,14 +382,14 @@ export const QUESTION_DATA = {
         "Find Minimum in Rotated Sorted Array",
         "Find Minimum in Rotated Sorted Array II",
         "Rotation Count",
-        "Find the Rotation Point"
+        "Find the Rotation Point",
       ],
       "Peak / Valley": [
         "Find Peak Element",
         "Peak Index in a Mountain Array",
         "Find a Peak Element II",
         "Local Minimum in Array",
-        "Find the Minimum Element in Bitonic Array"
+        "Find the Minimum Element in Bitonic Array",
       ],
       "Binary Search on Answer": [
         "Koko Eating Bananas",
@@ -401,7 +401,7 @@ export const QUESTION_DATA = {
         "Minimum Speed to Arrive on Time",
         "Maximum Running Time of N Computers",
         "Minimum Time to Complete Trips",
-        "Magnetic Force Between Two Balls"
+        "Magnetic Force Between Two Balls",
       ],
       "Binary Search on Matrix": [
         "Search a 2D Matrix",
@@ -409,20 +409,20 @@ export const QUESTION_DATA = {
         "Count Smaller Numbers After Self",
         "Kth Smallest Element in a Sorted Matrix",
         "Find the Smallest Divisor Given a Threshold",
-        "Find the Median of Two Sorted Arrays"
+        "Find the Median of Two Sorted Arrays",
       ],
       "Binary Search with Counting": [
         "Find K-th Smallest Pair Distance",
         "Kth Smallest Number in Multiplication Table",
         "Count of Smaller Numbers After Self",
         "H-Index II",
-        "Online Election"
+        "Online Election",
       ],
       "Binary Search on Strings": [
         "Find Longest Word in Dictionary through Deleting",
         "Find Smallest Common Element in All Rows",
         "Longest Duplicate Substring",
-        "Compare Strings by Frequency of the Smallest Character"
+        "Compare Strings by Frequency of the Smallest Character",
       ],
       "Edge / Advanced": [
         "Find the Duplicate Number",
@@ -448,8 +448,8 @@ export const QUESTION_DATA = {
         "Maximum Number of Weeks for Which You Can Work",
         "Maximum Value at a Given Index in a Bounded Array",
         "Find the Kth Smallest Element in a BST",
-        "Find the Smallest Number Greater Than Target"
-      ]
+        "Find the Smallest Number Greater Than Target",
+      ],
     },
     "E. STACK": {
       "Matching Stack": [
@@ -462,7 +462,7 @@ export const QUESTION_DATA = {
         "Remove All Adjacent Duplicates in String II",
         "Check If a Parentheses String Can Be Valid",
         "Remove Invalid Parentheses",
-        "Score of Parentheses"
+        "Score of Parentheses",
       ],
       "Monotonic Stack - Increasing": [
         "Next Greater Element I",
@@ -472,7 +472,7 @@ export const QUESTION_DATA = {
         "Next Greater Node in Linked List",
         "Final Prices With a Special Discount in a Shop",
         "Steps to Make Array Non-decreasing",
-        "Replace Elements with Greatest Element on Right Side"
+        "Replace Elements with Greatest Element on Right Side",
       ],
       "Monotonic Stack - Decreasing": [
         "Largest Rectangle in Histogram",
@@ -482,7 +482,7 @@ export const QUESTION_DATA = {
         "Sum of Subarray Ranges",
         "Maximum Width Ramp",
         "Remove Duplicate Letters",
-        "Smallest Subsequence of Distinct Characters"
+        "Smallest Subsequence of Distinct Characters",
       ],
       "Index Stack": [
         "Asteroid Collision",
@@ -492,7 +492,7 @@ export const QUESTION_DATA = {
         "Simplify Path",
         "Baseball Game",
         "Crawler Log Folder",
-        "Validate Stack Sequences"
+        "Validate Stack Sequences",
       ],
       "Expression Evaluation": [
         "Evaluate Reverse Polish Notation",
@@ -500,28 +500,28 @@ export const QUESTION_DATA = {
         "Basic Calculator II",
         "Basic Calculator III",
         "Decode String",
-        "Parsing A Boolean Expression"
+        "Parsing A Boolean Expression",
       ],
       "Stack Simulation / Design": [
         "Min Stack",
         "Implement Stack using Queues",
         "Design a Stack With Increment Operation",
         "Design Browser History",
-        "Design Front Middle Back Queue"
+        "Design Front Middle Back Queue",
       ],
       "Stack + String Processing": [
         "Remove Stars From a String",
         "Clear Digits",
         "Backspace String Compare",
         "Remove K Digits",
-        "Remove Duplicate Letters"
+        "Remove Duplicate Letters",
       ],
       "Stack + Validation": [
         "Check If Word Is Valid After Substitutions",
         "Remove Colored Pieces if Both Neighbors Are the Same Color",
         "Remove Digit From Number to Maximize Result",
         "Remove All Occurrences of a Substring",
-        "Remove One Element to Make the Array Strictly Increasing"
+        "Remove One Element to Make the Array Strictly Increasing",
       ],
       "Stack Edge / Variants": [
         "Count Submatrices With All Ones",
@@ -552,10 +552,68 @@ export const QUESTION_DATA = {
         "Simplify Path",
         "Parsing A Boolean Expression",
         "Count Subarrays With Score Less Than K",
-        "Longest Valid Parentheses"
-      ]
+        "Longest Valid Parentheses",
+      ],
     },
-    "F. LINKED LIST": {
+    "F. HEAP / PRIORITY QUEUE ": {
+      "Top-K / Kth": [
+        "Kth Largest Element in an Array",
+        "Top K Frequent Elements",
+        "Top K Frequent Words",
+        "K Closest Points to Origin",
+        "Kth Smallest Element in a Sorted Matrix",
+        "Find K Closest Elements",
+      ],
+      "Streaming / Online": [
+        "Find Median from Data Stream",
+        "Kth Largest Element in a Stream",
+        "Sliding Window Median",
+      ],
+      "Scheduling (Pure Heap usage)": [
+        "Meeting Rooms II",
+        "Minimum Number of Meeting Rooms",
+        "Task Scheduler",
+        "Single-Threaded CPU",
+        "Maximum CPU Load",
+      ],
+      "Greedy with Heap": [
+        "IPO",
+        "Furthest Building You Can Reach",
+        "Last Stone Weight",
+        "Minimum Cost to Connect Sticks",
+        "Reorganize String",
+        "Distant Barcodes",
+      ],
+      "Two-Heap Technique": [
+        "Median of Two Sorted Arrays (heap approach)",
+        "Continuous Median",
+      ],
+      "Utility / Frequency": [
+        "Sort Characters by Frequency",
+        "Frequency Sort",
+        "Rearrange String k Distance Apart",
+      ],
+    },
+    "G. INTERVAL QUESTIONS": {
+      "Core Thinking": [
+        "Sort by start or end",
+        "Overlap vs non-overlap",
+        "Merge / insert / count conflicts",
+      ],
+      "Interval Operations": [
+        "Merge Intervals",
+        "Insert Interval",
+        "Interval List Intersections",
+      ],
+      "Overlap Control": [
+        "Non-overlapping Intervals",
+        "Remove Covered Intervals",
+      ],
+      Scheduling: ["Meeting Rooms", "Interval Scheduling", "Car Pooling"],
+      "Greedy Intervals": ["Minimum Number of Arrows to Burst Balloons"],
+      "Calendar Design": ["My Calendar I"],
+    },
+    "H. LINKED LIST": {
       "Fast-Slow Pointer": [
         "Linked List Cycle",
         "Linked List Cycle II",
@@ -566,7 +624,7 @@ export const QUESTION_DATA = {
         "Maximum Twin Sum of a Linked List",
         "Split Linked List in Parts",
         "Reorder List",
-        "Circular Linked List"
+        "Circular Linked List",
       ],
       "Reverse Pointers": [
         "Reverse Linked List",
@@ -576,7 +634,7 @@ export const QUESTION_DATA = {
         "Reverse Linked List in Pairs",
         "Reverse Sublist",
         "Reverse Linked List Using Recursion",
-        "Reverse Doubly Linked List"
+        "Reverse Doubly Linked List",
       ],
       "Merge Lists": [
         "Merge Two Sorted Lists",
@@ -586,7 +644,7 @@ export const QUESTION_DATA = {
         "Add Two Numbers",
         "Add Two Numbers II",
         "Plus One Linked List",
-        "Insert into a Sorted Circular Linked List"
+        "Insert into a Sorted Circular Linked List",
       ],
       "Dummy Node Technique": [
         "Remove Linked List Elements",
@@ -596,7 +654,7 @@ export const QUESTION_DATA = {
         "Remove Duplicates from Sorted List II",
         "Swap Nodes in Pairs",
         "Delete Nodes from Linked List Present in Array",
-        "Insert Greatest Common Divisors in Linked List"
+        "Insert Greatest Common Divisors in Linked List",
       ],
       "Cycle Manipulation": [
         "Intersection of Two Linked Lists",
@@ -604,30 +662,30 @@ export const QUESTION_DATA = {
         "Flatten a Multilevel Doubly Linked List",
         "Convert Binary Number in a Linked List to Integer",
         "Linked List Components",
-        "Design Linked List"
+        "Design Linked List",
       ],
       "Index / Math": [
         "Find the Minimum and Maximum Number of Nodes Between Critical Points",
         "Remove Nodes From Linked List",
         "Merge Nodes in Between Zeros",
         "Double a Number Represented as a Linked List",
-        "Add Two Numbers"
+        "Add Two Numbers",
       ],
       "Edge / Advanced": [
         "Rotate List",
         "Odd Even Linked List",
         "Palindrome Linked List",
         "Remove Duplicates from an Unsorted Linked List",
-        "Reorder Linked List"
+        "Reorder Linked List",
       ],
       "Simulation / Design": [
         "LRU Cache",
         "LFU Cache",
         "Design Browser History",
         "Design Circular Queue",
-        "Design Circular Deque"
+        "Design Circular Deque",
       ],
-      "Transformations": [
+      Transformations: [
         "Delete Nodes Having Greater Value on Right",
         "Reverse Alternate Nodes in a Linked List",
         "Segregate Even and Odd Nodes in a Linked List",
@@ -672,10 +730,10 @@ export const QUESTION_DATA = {
         "Delete N Nodes After M Nodes of a Linked List",
         "Reverse a Linked List Using Stack",
         "Add Two Numbers in Linked List Format",
-        "Find the Starting Point of Loop in Linked List"
-      ]
+        "Find the Starting Point of Loop in Linked List",
+      ],
     },
-    "G. TREES": {
+    "I. TREES": {
       "DFS Traversal": [
         "Binary Tree Preorder Traversal",
         "Binary Tree Inorder Traversal",
@@ -686,7 +744,7 @@ export const QUESTION_DATA = {
         "Same Tree",
         "Symmetric Tree",
         "Invert Binary Tree",
-        "Subtree of Another Tree"
+        "Subtree of Another Tree",
       ],
       "BFS Traversal": [
         "Binary Tree Level Order Traversal",
@@ -696,7 +754,7 @@ export const QUESTION_DATA = {
         "Binary Tree Right Side View",
         "Binary Tree Left Side View",
         "Populating Next Right Pointers in Each Node",
-        "Populating Next Right Pointers in Each Node II"
+        "Populating Next Right Pointers in Each Node II",
       ],
       "Height-Based": [
         "Maximum Depth of Binary Tree",
@@ -706,7 +764,7 @@ export const QUESTION_DATA = {
         "Count Complete Tree Nodes",
         "Height of Binary Tree",
         "Check for Balanced Tree",
-        "Maximum Level Sum of a Binary Tree"
+        "Maximum Level Sum of a Binary Tree",
       ],
       "Path-Based": [
         "Path Sum",
@@ -716,7 +774,7 @@ export const QUESTION_DATA = {
         "Binary Tree Maximum Path Sum",
         "Longest Univalue Path",
         "Path Sum III",
-        "Find Leaves of Binary Tree"
+        "Find Leaves of Binary Tree",
       ],
       "BST Property": [
         "Validate Binary Search Tree",
@@ -726,21 +784,21 @@ export const QUESTION_DATA = {
         "Insert into a Binary Search Tree",
         "Delete Node in a BST",
         "Convert Sorted Array to Binary Search Tree",
-        "Convert Sorted List to Binary Search Tree"
+        "Convert Sorted List to Binary Search Tree",
       ],
       "Tree Construction": [
         "Construct Binary Tree from Preorder and Inorder Traversal",
         "Construct Binary Tree from Inorder and Postorder Traversal",
         "Construct Binary Tree from Preorder and Postorder Traversal",
         "Construct String from Binary Tree",
-        "Recover a Tree From Preorder Traversal"
+        "Recover a Tree From Preorder Traversal",
       ],
       "Tree Views": [
         "Vertical Order Traversal of a Binary Tree",
         "Top View of Binary Tree",
         "Bottom View of Binary Tree",
         "Boundary Traversal of Binary Tree",
-        "Find Bottom Left Tree Value"
+        "Find Bottom Left Tree Value",
       ],
       "Tree Manipulation": [
         "Flatten Binary Tree to Linked List",
@@ -748,14 +806,14 @@ export const QUESTION_DATA = {
         "Serialize and Deserialize BST",
         "Convert BST to Greater Tree",
         "Trim a Binary Search Tree",
-        "Increasing Order Search Tree"
+        "Increasing Order Search Tree",
       ],
       "Tree Counting / Validation": [
         "Count Nodes Equal to Average of Subtree",
         "Count Good Nodes in Binary Tree",
         "Sum of Left Leaves",
         "Cousins in Binary Tree",
-        "Check Completeness of a Binary Tree"
+        "Check Completeness of a Binary Tree",
       ],
       "Tree Edge / Variants": [
         "Maximum Width of Binary Tree",
@@ -763,19 +821,19 @@ export const QUESTION_DATA = {
         "Range Sum of BST",
         "Two Sum IV - Input is a BST",
         "Find Mode in Binary Search Tree",
-        "Binary Search Tree Iterator"
+        "Binary Search Tree Iterator",
       ],
       "N-ary Tree": [
         "N-ary Tree Preorder Traversal",
         "N-ary Tree Postorder Traversal",
         "N-ary Tree Level Order Traversal",
-        "Maximum Depth of N-ary Tree"
+        "Maximum Depth of N-ary Tree",
       ],
       "Tree Logic / Comparisons": [
         "Check if Two Trees are Identical",
         "Check if Two Trees are Mirror",
         "Check if Binary Tree is Sum Tree",
-        "Check if Binary Tree is Height Balanced"
+        "Check if Binary Tree is Height Balanced",
       ],
       "Completion / Buffer": [
         "Merge Two Binary Trees",
@@ -800,10 +858,10 @@ export const QUESTION_DATA = {
         "Convert BST to Sorted Doubly Linked List",
         "Serialize and Deserialize N-ary Tree",
         "Check if Binary Tree is Complete",
-        "Find Largest BST Subtree"
-      ]
+        "Find Largest BST Subtree",
+      ],
     },
-    "H. GRAPHS": {
+    "J. GRAPHS": {
       "BFS - Shortest Path": [
         "Number of Islands",
         "Flood Fill",
@@ -814,7 +872,7 @@ export const QUESTION_DATA = {
         "Word Ladder",
         "Word Ladder II",
         "Minimum Depth of Binary Tree (BFS view)",
-        "Perfect Squares"
+        "Perfect Squares",
       ],
       "DFS - Connectivity": [
         "Max Area of Island",
@@ -826,7 +884,7 @@ export const QUESTION_DATA = {
         "Find if Path Exists in Graph",
         "Count Sub Islands",
         "Number of Closed Islands",
-        "Find Eventual Safe States"
+        "Find Eventual Safe States",
       ],
       "Connected Components": [
         "Number of Provinces",
@@ -836,7 +894,7 @@ export const QUESTION_DATA = {
         "Number of Connected Components in an Undirected Graph",
         "Accounts Merge",
         "Find All Groups of Farmland",
-        "Count Servers That Communicate"
+        "Count Servers That Communicate",
       ],
       "Topological Sort": [
         "Course Schedule",
@@ -845,7 +903,7 @@ export const QUESTION_DATA = {
         "Minimum Height Trees",
         "Parallel Courses",
         "Alien Dictionary",
-        "Sequence Reconstruction"
+        "Sequence Reconstruction",
       ],
       "Union Find": [
         "Redundant Connection",
@@ -855,7 +913,7 @@ export const QUESTION_DATA = {
         "Satisfiability of Equality Equations",
         "Number of Connected Components in a Graph",
         "Most Stones Removed with Same Row or Column",
-        "Min Cost to Connect All Points"
+        "Min Cost to Connect All Points",
       ],
       "Multi-Source BFS": [
         "Rotting Oranges",
@@ -863,7 +921,7 @@ export const QUESTION_DATA = {
         "As Far from Land as Possible",
         "Shortest Bridge",
         "Map of Highest Peak",
-        "Maximum Distance from Water"
+        "Maximum Distance from Water",
       ],
       "State Graph": [
         "Shortest Path with Alternating Colors",
@@ -871,28 +929,28 @@ export const QUESTION_DATA = {
         "Minimum Genetic Mutation",
         "Snakes and Ladders",
         "Race Car",
-        "Open the Lock"
+        "Open the Lock",
       ],
       "Directed / Undirected": [
         "Find Center of Star Graph",
         "Find the Celebrity",
         "Reorder Routes to Make All Paths Lead to the City Zero",
         "Evaluate Division",
-        "Is Graph Bipartite?"
+        "Is Graph Bipartite?",
       ],
       "Grid Variants": [
         "Pacific Atlantic Water Flow",
         "Number of Distinct Islands",
         "Number of Distinct Islands II",
         "Regions Cut by Slashes",
-        "Largest Island"
+        "Largest Island",
       ],
       "Edge / Validation": [
         "Possible Bipartition",
         "Check if Graph Is Tree",
         "Count Unreachable Pairs of Nodes in an Undirected Graph",
         "Find if Path Exists in Graph",
-        "Minimum Number of Vertices to Reach All Nodes"
+        "Minimum Number of Vertices to Reach All Nodes",
       ],
       "Completion / Buffer": [
         "Shortest Path Visiting All Nodes",
@@ -924,12 +982,65 @@ export const QUESTION_DATA = {
         "Reconstruct Itinerary",
         "Find the Number of Restricted Paths",
         "Minimum Cost to Make at Least One Valid Path in a Grid",
-        "Number of Ways to Reorder Array to Get Same BST"
-      ]
-    }
+        "Number of Ways to Reorder Array to Get Same BST",
+      ],
+    },
+    "K. STRING QUESTIONS": {
+      "Two Pointer / Palindrome": [
+        "Valid Palindrome",
+        "Palindrome Number",
+        "Longest Palindromic Substring",
+      ],
+      "Parsing / Simulation": [
+        "String Compression",
+        "Implement strStr()",
+        "Compare Version Numbers",
+        "Valid Number",
+        "Decode String",
+      ],
+      Subsequence: ["Is Subsequence", "Longest Common Prefix"],
+      "Hash / Mapping": ["Isomorphic Strings", "Word Pattern"],
+      "Rolling Hash (Basic)": [
+        "Repeated Substring Pattern",
+        "Longest Duplicate Substring",
+      ],
+    },
+    "L. BIT MANIPULATION QUESTIONS": {
+      "Core Logic": ["XOR properties", "Masking", "Power-of-two tricks"],
+      "Basic Bit Problems": [
+        "Single Number",
+        "Single Number II",
+        "Counting Bits",
+        "Reverse Bits",
+        "Number of 1 Bits",
+        "Power of Two",
+        "Missing Number",
+      ],
+      Bitmasking: ["Subsets (Bitmask)"],
+    },
+    "M. MATH QUESTIONS": {
+      "Number Theory": ["GCD of Array", "LCM Problems"],
+      "Prime / Counting": ["Count Primes"],
+      Combinatorics: ["Permutation Sequence", "Combination Sum IV"],
+      "Math + DP": ["Integer Break"],
+      Utilities: ["Modular Exponentiation"],
+    },
+    "N. DESIGN QUESTIONS": {
+      "Cache Design": ["LRU Cache (HashMap + DLL)", "LFU Cache"],
+      "HashMap-Based Design": [
+        "Design Twitter",
+        "Design Hit Counter",
+        "Time-Based Key-Value Store",
+      ],
+      "Advanced DS Composition": [
+        "All O(1) Data Structure",
+        "Design File System",
+        "Design In-Memory Rate Limiter",
+      ],
+    },
   },
   "PART 2: HYBRID PATTERNS": {
-    "Array / Window / Sum Hybrids": {
+    "A. Array / Window / Sum Hybrids": {
       "Sliding Window + Kadane": [
         "Maximum Sum of Subarray with Unique Elements",
         "Maximum Sum Subarray with At Least K Length",
@@ -940,7 +1051,7 @@ export const QUESTION_DATA = {
         "Maximum Sum Subarray with Size Between K1 and K2",
         "Maximum Sum Circular Subarray (Hybrid view)",
         "Maximum Score of a Good Subarray",
-        "Maximum Subarray with Bounded Difference"
+        "Maximum Subarray with Bounded Difference",
       ],
       "Sliding Window + Prefix Sum": [
         "Subarray Product Less Than K",
@@ -952,7 +1063,7 @@ export const QUESTION_DATA = {
         "Count Subarrays with Median K",
         "Number of Subarrays with Bounded Maximum",
         "Subarrays with Sum Divisible by K",
-        "Count Subarrays with Product Less Than K"
+        "Count Subarrays with Product Less Than K",
       ],
       "Sliding Window + HashMap": [
         "Longest Substring with At Most K Distinct Characters",
@@ -964,7 +1075,7 @@ export const QUESTION_DATA = {
         "Longest Substring with At Most K Replacements",
         "Fruit Into Baskets",
         "Count Substrings with Exactly K Distinct Characters",
-        "Count Substrings with At Most K Distinct Characters"
+        "Count Substrings with At Most K Distinct Characters",
       ],
       "Kadane + Prefix Sum": [
         "Maximum Subarray Sum Equals K",
@@ -976,7 +1087,7 @@ export const QUESTION_DATA = {
         "Maximum Difference Between Subarray Sums",
         "Maximum Subarray Sum with Size Constraint",
         "Maximum Product Subarray (Prefix reasoning)",
-        "Maximum Subarray with Equal Number of 0s and 1s"
+        "Maximum Subarray with Equal Number of 0s and 1s",
       ],
       "Array + Binary Search": [
         "Find the Duplicate Number",
@@ -988,7 +1099,7 @@ export const QUESTION_DATA = {
         "Maximum Running Time of N Computers",
         "Minimum Limit of Balls in a Bag",
         "Minimize the Maximum Distance to Gas Station",
-        "Aggressive Cows"
+        "Aggressive Cows",
       ],
       "Sliding Window + Binary Search": [
         "Longest Substring with At Most K Replacements",
@@ -1000,14 +1111,14 @@ export const QUESTION_DATA = {
         "Longest Subarray with Difference at Most K",
         "Longest Subarray with At Most K Frequency",
         "Maximum Length Substring with Two Occurrences",
-        "Longest Binary Subsequence <= K"
+        "Longest Binary Subsequence <= K",
       ],
       "Window + Greedy": [
         "Minimum Swaps to Group All 1's Together",
         "Minimum Swaps to Group All 1's Together II",
         "Minimum Operations to Reduce X to Zero",
         "Max Consecutive Ones III",
-        "Minimum Size Subarray Sum (Greedy view)"
+        "Minimum Size Subarray Sum (Greedy view)",
       ],
       "Buffer / Edge Hybrids": [
         "Shortest Subarray with Sum at Least K",
@@ -1044,10 +1155,10 @@ export const QUESTION_DATA = {
         "Maximum Sum of Subarray with Constraint",
         "Count Subarrays with K Constraint",
         "Longest Subarray with Sliding Constraint",
-        "Maximum Windowed Subarray Sum"
-      ]
+        "Maximum Windowed Subarray Sum",
+      ],
     },
-    "Binary Search Hybrids": {
+    "B. Binary Search Hybrids": {
       "Binary Search + Greedy": [
         "Koko Eating Bananas",
         "Capacity To Ship Packages Within D Days",
@@ -1068,7 +1179,7 @@ export const QUESTION_DATA = {
         "Maximum Number of Groups Entering a Competition",
         "Maximum Number of Events That Can Be Attended",
         "Maximum Number of Robots Within Budget",
-        "Maximum Number of Candies You Can Eat"
+        "Maximum Number of Candies You Can Eat",
       ],
       "Binary Search + Prefix Sum": [
         "Maximum Average Subarray II",
@@ -1080,7 +1191,7 @@ export const QUESTION_DATA = {
         "Find K-th Smallest Pair Distance",
         "Kth Smallest Number in Multiplication Table",
         "Maximum Value at a Given Index in a Bounded Array",
-        "Find the Kth Smallest Prime Fraction"
+        "Find the Kth Smallest Prime Fraction",
       ],
       "Binary Search + Sliding Window": [
         "Longest Substring with At Most K Replacements",
@@ -1092,7 +1203,7 @@ export const QUESTION_DATA = {
         "Longest Subarray with At Most K Frequency",
         "Longest Binary Subsequence <= K",
         "Maximum Length Substring with Two Occurrences",
-        "Maximum Subarray with Bounded Difference"
+        "Maximum Subarray with Bounded Difference",
       ],
       "Binary Search + DP": [
         "Russian Doll Envelopes",
@@ -1104,7 +1215,7 @@ export const QUESTION_DATA = {
         "Maximum Number of Events That Can Be Attended II",
         "Maximum Profit in Job Scheduling",
         "Find the Longest Chain of Pairs",
-        "Maximize Score After N Operations"
+        "Maximize Score After N Operations",
       ],
       "Binary Search + Graph": [
         "Path With Minimum Effort",
@@ -1116,7 +1227,7 @@ export const QUESTION_DATA = {
         "Shortest Path in a Hidden Grid",
         "Shortest Path Visiting All Nodes (Binary Search view)",
         "Escape a Large Maze",
-        "Minimum Obstacle Removal to Reach Corner"
+        "Minimum Obstacle Removal to Reach Corner",
       ],
       "Binary Search + Union Find": [
         "Connecting Cities With Minimum Cost",
@@ -1128,7 +1239,7 @@ export const QUESTION_DATA = {
         "Optimize Water Distribution in a Village",
         "Most Stones Removed with Same Row or Column",
         "Remove Max Number of Edges to Keep Graph Fully Traversable",
-        "Satisfiability of Equality Equations"
+        "Satisfiability of Equality Equations",
       ],
       "Edge / Mixed Binary Search": [
         "Find the Kth Smallest Number in Sorted Matrix",
@@ -1160,10 +1271,10 @@ export const QUESTION_DATA = {
         "Minimum Number of Days to Eat N Oranges",
         "Maximum Number of Consecutive Values You Can Make",
         "Minimum Cost to Divide Array",
-        "Find the Smallest Possible Maximum Difference"
-      ]
+        "Find the Smallest Possible Maximum Difference",
+      ],
     },
-    "Stack Hybrids": {
+    "C. Stack Hybrids": {
       "Stack + Array": [
         "Largest Rectangle in Histogram",
         "Trapping Rain Water",
@@ -1174,7 +1285,7 @@ export const QUESTION_DATA = {
         "Sum of Subarray Ranges",
         "Maximum Width Ramp",
         "Online Stock Span",
-        "Final Prices With a Special Discount in a Shop"
+        "Final Prices With a Special Discount in a Shop",
       ],
       "Stack + Prefix Sum": [
         "Maximum Score of a Good Subarray",
@@ -1186,7 +1297,7 @@ export const QUESTION_DATA = {
         "Maximum Sum of Min-Product of an Array",
         "Subarray With Elements Greater Than Varying Threshold",
         "Number of Subarrays With Bounded Minimum",
-        "Number of Valid Subarrays"
+        "Number of Valid Subarrays",
       ],
       "Stack + DP": [
         "Maximal Rectangle (DP + Stack)",
@@ -1198,7 +1309,7 @@ export const QUESTION_DATA = {
         "Check If a Parentheses String Can Be Valid",
         "Maximum Length of Valid Parentheses Substring",
         "Decode String",
-        "Parsing A Boolean Expression"
+        "Parsing A Boolean Expression",
       ],
       "Stack + Binary Search": [
         "Maximum Width Ramp",
@@ -1210,7 +1321,7 @@ export const QUESTION_DATA = {
         "Maximum Number of Books You Can Take",
         "Maximum Number of Robots Within Budget (Stack + BS view)",
         "Longest Subarray With Maximum Bitwise AND",
-        "Longest Subarray With Maximum Bitwise OR"
+        "Longest Subarray With Maximum Bitwise OR",
       ],
       "Stack + String / Greedy": [
         "Remove K Digits",
@@ -1222,7 +1333,7 @@ export const QUESTION_DATA = {
         "Clear Digits",
         "Remove All Occurrences of a Substring",
         "Minimum Deletions to Make String Balanced",
-        "Maximum Score From Removing Substrings"
+        "Maximum Score From Removing Substrings",
       ],
       "Stack + Math / Range Logic": [
         "Number of Valid Subarrays",
@@ -1234,7 +1345,7 @@ export const QUESTION_DATA = {
         "Count Subarrays With Score Less Than K",
         "Find the Longest Semi-Repetitive Substring",
         "Count Subarrays Where Min = X and Max = Y",
-        "Count Subarrays With Median K"
+        "Count Subarrays With Median K",
       ],
       "Stack + Greedy Advanced": [
         "Remove Duplicate Letters to Form Smallest Sequence",
@@ -1246,7 +1357,7 @@ export const QUESTION_DATA = {
         "Remove Colored Pieces if Both Neighbors Are Same Color",
         "Maximum Number of Non-Overlapping Subarrays",
         "Minimum Number of Swaps to Make String Balanced",
-        "Make String a Subsequence Using Cyclic Increments"
+        "Make String a Subsequence Using Cyclic Increments",
       ],
       "Stack + Simulation / Design": [
         "Asteroid Collision",
@@ -1258,7 +1369,7 @@ export const QUESTION_DATA = {
         "Crawler Log Folder",
         "Build an Array With Stack Operations",
         "Design a Stack With Increment Operation",
-        "Min Stack"
+        "Min Stack",
       ],
       "Edge / Mixed Stack Hybrids": [
         "Remove All Adjacent Duplicates in String",
@@ -1280,10 +1391,43 @@ export const QUESTION_DATA = {
         "Largest Rectangle in Histogram",
         "Trapping Rain Water",
         "Number of Visible People in a Queue",
-        "Find the Most Competitive Subsequence"
-      ]
+        "Find the Most Competitive Subsequence",
+      ],
     },
-    "Tree Hybrids": {
+    "D. PRIORITY QUEUE HYBRIDS": {
+      "PQ + Graph": [
+        "Dijkstra’s Algorithm",
+        "Network Delay Time",
+        "Cheapest Flights Within K Stops",
+        "Path With Minimum Effort",
+        "Swim in Rising Water",
+      ],
+      "PQ + Greedy": [
+        "Minimum Cost to Hire K Workers",
+        "Minimum Number of Refueling Stops",
+        "Maximum Performance of a Team",
+      ],
+      "PQ + Interval": [
+        "Employee Free Time",
+        "Smallest Range Covering Elements from K Lists",
+        "Merge K Sorted Lists",
+      ],
+      "PQ + DP": [
+        "Constrained Subsequence Sum",
+        "Minimum Cost to Merge Stones",
+      ],
+    },
+    "E. INTERVAL HYBRIDS": {
+      "Interval + Heap": ["Meeting Rooms II", "Employee Free Time"],
+      "Interval + Greedy": [
+        "Partition Labels",
+        "Minimum Number of Arrows to Burst Balloons",
+      ],
+      "Interval + Binary Search": ["Find Right Interval", "My Calendar II"],
+      "Interval + DP": ["Maximum Number of Events That Can Be Attended II"],
+    },
+
+    "F. Tree Hybrids": {
       "DFS + DP (Tree DP)": [
         "Binary Tree Maximum Path Sum",
         "Diameter of Binary Tree",
@@ -1294,7 +1438,7 @@ export const QUESTION_DATA = {
         "Longest Univalue Path",
         "Maximum Average Subtree",
         "Sum of Distances in Tree",
-        "Count Nodes With the Highest Score"
+        "Count Nodes With the Highest Score",
       ],
       "DFS + Prefix Sum": [
         "Path Sum III",
@@ -1306,7 +1450,7 @@ export const QUESTION_DATA = {
         "Longest ZigZag Path in a Binary Tree",
         "Smallest String Starting From Leaf",
         "Sum Root to Leaf Numbers",
-        "Binary Tree Paths (Prefix framing)"
+        "Binary Tree Paths (Prefix framing)",
       ],
       "DFS + Backtracking": [
         "Path Sum II",
@@ -1318,7 +1462,7 @@ export const QUESTION_DATA = {
         "All Nodes Distance K in Binary Tree",
         "Find Leaves of Binary Tree",
         "Step-By-Step Directions From a Binary Tree Node to Another",
-        "Serialize and Deserialize Binary Tree (DFS view)"
+        "Serialize and Deserialize Binary Tree (DFS view)",
       ],
       "BFS + HashMap": [
         "Binary Tree Vertical Order Traversal",
@@ -1330,7 +1474,7 @@ export const QUESTION_DATA = {
         "Find Bottom Left Tree Value",
         "Maximum Width of Binary Tree",
         "Cousins in Binary Tree",
-        "Check Completeness of a Binary Tree"
+        "Check Completeness of a Binary Tree",
       ],
       "Tree + Binary Search (BST Hybrids)": [
         "Kth Smallest Element in a BST",
@@ -1342,7 +1486,7 @@ export const QUESTION_DATA = {
         "Recover Binary Search Tree",
         "Convert BST to Greater Tree",
         "Range Sum of BST",
-        "Trim a Binary Search Tree"
+        "Trim a Binary Search Tree",
       ],
       "Tree + HashMap": [
         "Find Duplicate Subtrees",
@@ -1354,7 +1498,7 @@ export const QUESTION_DATA = {
         "Find Mode in Binary Search Tree",
         "Find Corresponding Node of a Binary Tree in a Clone",
         "All Elements in Two Binary Search Trees",
-        "Find Largest BST Subtree"
+        "Find Largest BST Subtree",
       ],
       "Tree + Greedy": [
         "Distribute Coins in Binary Tree (Greedy view)",
@@ -1366,7 +1510,7 @@ export const QUESTION_DATA = {
         "Split BST",
         "Remove Half Nodes",
         "Check if Binary Tree is Sum Tree",
-        "Convert Binary Tree to Sum Tree"
+        "Convert Binary Tree to Sum Tree",
       ],
       "Tree + Serialization / Indexing": [
         "Serialize and Deserialize Binary Tree",
@@ -1378,7 +1522,7 @@ export const QUESTION_DATA = {
         "Construct Binary Tree from Preorder and Inorder",
         "Construct Binary Tree from Inorder and Postorder",
         "Construct Binary Tree from Preorder and Postorder",
-        "Build Tree from Level Order Traversal"
+        "Build Tree from Level Order Traversal",
       ],
       "Tree + Advanced Variants": [
         "Binary Tree Tilt",
@@ -1400,10 +1544,10 @@ export const QUESTION_DATA = {
         "Count Complete Tree Nodes (Binary Search view)",
         "All Nodes Distance K in Binary Tree",
         "Longest ZigZag Path in Binary Tree",
-        "Maximum Sum BST in Binary Tree"
-      ]
+        "Maximum Sum BST in Binary Tree",
+      ],
     },
-    "Graph Hybrids": {
+    "G. Graph Hybrids": {
       "Graph + BFS + State": [
         "Shortest Path in a Grid with Obstacles Elimination",
         "Shortest Path Visiting All Nodes",
@@ -1414,7 +1558,7 @@ export const QUESTION_DATA = {
         "Race Car",
         "Escape a Large Maze",
         "Minimum Cost to Make at Least One Valid Path in a Grid",
-        "Shortest Path in Binary Matrix"
+        "Shortest Path in Binary Matrix",
       ],
       "Graph + DP": [
         "Number of Ways to Arrive at Destination",
@@ -1426,7 +1570,7 @@ export const QUESTION_DATA = {
         "Maximum Employees to Be Invited to a Meeting",
         "All Paths From Source Lead to Destination",
         "Parallel Courses III",
-        "Number of Ways to Reach a Position After Exactly K Steps"
+        "Number of Ways to Reach a Position After Exactly K Steps",
       ],
       "Graph + Binary Search": [
         "Path With Minimum Effort",
@@ -1438,7 +1582,7 @@ export const QUESTION_DATA = {
         "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
         "Shortest Distance from All Buildings",
         "Minimum Time to Repair Roads",
-        "Minimum Cost to Connect Two Groups of Points"
+        "Minimum Cost to Connect Two Groups of Points",
       ],
       "Graph + Union Find": [
         "Redundant Connection",
@@ -1450,7 +1594,7 @@ export const QUESTION_DATA = {
         "Satisfiability of Equality Equations",
         "Number of Good Paths",
         "Min Cost to Connect All Points",
-        "Connecting Cities With Minimum Cost"
+        "Connecting Cities With Minimum Cost",
       ],
       "Graph + Greedy": [
         "Network Delay Time",
@@ -1462,7 +1606,7 @@ export const QUESTION_DATA = {
         "Maximum Number of Fish in a Grid",
         "Maximum Probability Path",
         "Minimum Cost to Make Path Valid",
-        "Minimum Time to Collect All Apples in a Tree"
+        "Minimum Time to Collect All Apples in a Tree",
       ],
       "Graph + Topological + DP": [
         "Course Schedule III",
@@ -1474,7 +1618,7 @@ export const QUESTION_DATA = {
         "Largest Color Value in a Directed Graph",
         "Minimum Time to Complete All Tasks",
         "Longest Increasing Path in a Matrix",
-        "Count All Increasing Paths in a Grid"
+        "Count All Increasing Paths in a Grid",
       ],
       "Graph + BFS + Greedy": [
         "Reorder Routes to Make All Paths Lead to the City Zero",
@@ -1486,7 +1630,7 @@ export const QUESTION_DATA = {
         "Maximum Distance from Water",
         "Number of Enclaves",
         "Detonate the Maximum Bombs",
-        "Count Sub Islands"
+        "Count Sub Islands",
       ],
       "Advanced / Mixed Graph Hybrids": [
         "Number of Ways to Reorder Array to Get Same BST",
@@ -1518,10 +1662,10 @@ export const QUESTION_DATA = {
         "Find the Longest Path in a Tree",
         "Count Paths With Given XOR",
         "Minimum Cost to Repair Edges",
-        "Count Connected Subgraphs"
-      ]
+        "Count Connected Subgraphs",
+      ],
     },
-    "Backtracking Hybrids": {
+    "H. Backtracking Hybrids": {
       "Backtracking + HashSet": [
         "Subsets II",
         "Permutations II",
@@ -1532,7 +1676,7 @@ export const QUESTION_DATA = {
         "Restore IP Addresses",
         "Beautiful Arrangement",
         "Split a String Into the Max Number of Unique Substrings",
-        "Fair Distribution of Cookies"
+        "Fair Distribution of Cookies",
       ],
       "Backtracking + Trie": [
         "Word Search II",
@@ -1544,7 +1688,7 @@ export const QUESTION_DATA = {
         "Maximum XOR of Two Numbers in an Array",
         "Concatenated Words",
         "Word Squares",
-        "Prefix and Suffix Search"
+        "Prefix and Suffix Search",
       ],
       "Backtracking + DP (Memoization)": [
         "Word Break II",
@@ -1556,7 +1700,7 @@ export const QUESTION_DATA = {
         "Stone Game III",
         "Can I Win",
         "Partition Equal Subset Sum (Backtracking view)",
-        "Split Array With Same Average"
+        "Split Array With Same Average",
       ],
       "Backtracking + Bitmask": [
         "N-Queens",
@@ -1568,7 +1712,7 @@ export const QUESTION_DATA = {
         "Find Minimum Time to Finish All Jobs",
         "Maximum Score Words Formed by Letters",
         "Campus Bikes II",
-        "Optimal Account Balancing"
+        "Optimal Account Balancing",
       ],
       "Backtracking + Graph": [
         "All Paths From Source to Target",
@@ -1580,7 +1724,7 @@ export const QUESTION_DATA = {
         "Word Ladder II",
         "Shortest Path Visiting All Nodes (Backtracking view)",
         "Find All Possible Paths in a Graph",
-        "Count Cycles in Directed Graph"
+        "Count Cycles in Directed Graph",
       ],
       "Backtracking + Greedy": [
         "Partition Labels (Backtracking framing)",
@@ -1592,7 +1736,7 @@ export const QUESTION_DATA = {
         "Maximum Length of a String After Deleting Similar Ends",
         "Find Kth Lexicographically Smallest Path",
         "Construct Smallest Number From DI String",
-        "Maximum Number of Groups Entering a Competition"
+        "Maximum Number of Groups Entering a Competition",
       ],
       "Backtracking + Math / Counting": [
         "Count Numbers With Unique Digits",
@@ -1604,7 +1748,7 @@ export const QUESTION_DATA = {
         "Count Sorted Vowel Strings",
         "Gray Code",
         "Generate Parentheses",
-        "Count Number of Maximum Bitwise-OR Subsets"
+        "Count Number of Maximum Bitwise-OR Subsets",
       ],
       "Backtracking + Strings": [
         "Remove Invalid Parentheses",
@@ -1616,7 +1760,7 @@ export const QUESTION_DATA = {
         "Count Ways to Build Good Strings",
         "Maximum Palindromes After Operations",
         "Find Unique Binary String",
-        "Find the Lexicographically Largest String"
+        "Find the Lexicographically Largest String",
       ],
       "Edge / Advanced Backtracking": [
         "Maximum Compatibility Score Sum",
@@ -1638,10 +1782,10 @@ export const QUESTION_DATA = {
         "Maximum Length of Nice Subarray (Backtracking view)",
         "Count All Valid Pickup and Delivery Options",
         "Maximum Number of Groups With Increasing Length",
-        "Maximum Number of Ways to Partition an Array"
-      ]
+        "Maximum Number of Ways to Partition an Array",
+      ],
     },
-    "DP Hybrids": {
+    "I. DP Hybrids": {
       "DP + Binary Search": [
         "Longest Increasing Subsequence (Binary Search optimized)",
         "Russian Doll Envelopes",
@@ -1652,7 +1796,7 @@ export const QUESTION_DATA = {
         "Maximum Height by Stacking Cuboids",
         "Minimum Cost to Cut a Stick",
         "Maximum Number of Non-Overlapping Subarrays",
-        "Maximum Value of K Coins From Piles"
+        "Maximum Value of K Coins From Piles",
       ],
       "DP + Stack": [
         "Maximal Rectangle",
@@ -1664,7 +1808,7 @@ export const QUESTION_DATA = {
         "Count Submatrices With All Ones",
         "Maximum Score of a Good Subarray",
         "Total Strength of Wizards",
-        "Number of Valid Subarrays"
+        "Number of Valid Subarrays",
       ],
       "DP + Greedy": [
         "Jump Game II",
@@ -1676,7 +1820,7 @@ export const QUESTION_DATA = {
         "Partition Labels",
         "Maximum Number of Achievable Transfer Requests",
         "Minimum Number of Taps to Open to Water a Garden",
-        "Maximum Number of Events That Can Be Attended"
+        "Maximum Number of Events That Can Be Attended",
       ],
       "DP + Sliding Window": [
         "Longest Substring with At Most K Distinct Characters",
@@ -1688,7 +1832,7 @@ export const QUESTION_DATA = {
         "Longest Subarray with Equal Number of 0s and 1s",
         "Count Subarrays with Product Less Than K",
         "Count Subarrays with Exactly K Distinct Integers",
-        "Maximum Sum Subarray with At Least K Length"
+        "Maximum Sum Subarray with At Least K Length",
       ],
       "DP + Prefix Sum": [
         "Subarray Sum Equals K",
@@ -1700,7 +1844,7 @@ export const QUESTION_DATA = {
         "Maximum Absolute Sum of Any Subarray",
         "Maximum Subarray Sum with One Deletion",
         "Maximum Sum Circular Subarray",
-        "Maximum Difference Between Subarray Sums"
+        "Maximum Difference Between Subarray Sums",
       ],
       "DP + Bitmask": [
         "Traveling Salesman Problem",
@@ -1712,7 +1856,7 @@ export const QUESTION_DATA = {
         "Campus Bikes II",
         "Optimal Account Balancing",
         "Maximum Students Taking Exam",
-        "Smallest Sufficient Team"
+        "Smallest Sufficient Team",
       ],
       "DP + Graph": [
         "Longest Increasing Path in a Matrix",
@@ -1724,7 +1868,7 @@ export const QUESTION_DATA = {
         "Longest Path in Directed Acyclic Graph",
         "Maximum Employees to Be Invited to a Meeting",
         "Count Subgraphs for Each Diameter",
-        "Number of Ways to Reach a Position After Exactly K Steps"
+        "Number of Ways to Reach a Position After Exactly K Steps",
       ],
       "DP + Tree": [
         "House Robber III",
@@ -1736,7 +1880,7 @@ export const QUESTION_DATA = {
         "Longest Univalue Path",
         "Maximum Sum BST in Binary Tree",
         "Count Nodes With the Highest Score",
-        "Sum of Distances in Tree"
+        "Sum of Distances in Tree",
       ],
       "DP + Strings": [
         "Word Break",
@@ -1748,7 +1892,7 @@ export const QUESTION_DATA = {
         "Scramble String",
         "Different Ways to Add Parentheses",
         "Palindrome Partitioning II",
-        "Count Ways to Build Good Strings"
+        "Count Ways to Build Good Strings",
       ],
       "DP + Math / Counting": [
         "Count All Valid Pickup and Delivery Options",
@@ -1760,8 +1904,30 @@ export const QUESTION_DATA = {
         "Partition Equal Subset Sum",
         "Target Sum",
         "Number of Ways to Stay in the Same Place After Some Steps",
-        "Count Vowel Permutations"
-      ]
-    }
-  }
+        "Count Vowel Permutations",
+      ],
+    },
+    "J. STRING HYBRIDS": {
+      "String + DP": [
+        "Longest Common Subsequence",
+        "Edit Distance",
+        "Regular Expression Matching",
+      ],
+      "String + Stack": [
+        "Remove Invalid Parentheses",
+        "Longest Valid Parentheses",
+      ],
+      "String + Backtracking": [
+        "Restore IP Addresses",
+        "Palindrome Partitioning",
+      ],
+    },
+    "K. BIT HYBRIDS": {
+      "Bit + Trie / Greedy": ["Maximum XOR of Two Numbers in an Array"],
+      "Bit + Greedy": ["Minimum Flips to Make a OR b Equal to c"],
+      "Bit + Sliding Window": ["Longest Nice Subarray"],
+      "Bit + Range Logic": ["Bitwise AND of Numbers Range"],
+      "Bit + Prefix / XOR": ["Decode XORed Array"],
+    },
+  },
 };
