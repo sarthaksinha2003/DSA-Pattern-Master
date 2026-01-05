@@ -733,7 +733,59 @@ export const QUESTION_DATA = {
         "Find the Starting Point of Loop in Linked List",
       ],
     },
-    "I. TREES": {
+    "I. RECURSION QUESTIONS": {
+      "Must-Do (Base Case & Stack Flow)": [
+        "Factorial",
+        "Fibonacci Number",
+        "Power(x, n)",
+        "Reverse String (recursive)",
+        "Reverse Linked List (recursive)",
+        "Print All Subsequences of a String",
+        "Generate All Subsets (recursive view)",
+        "Tower of Hanoi",
+        "Sum of Digits",
+        "Check Palindrome (recursive)",
+      ],
+      "Interview Intent": [
+        "Base case correctness",
+        "Recursive stack flow understanding",
+        "Ability to explain recursion vs optimization",
+      ],
+      Guideline: ["Do not over-invest", "10–12 questions are enough"],
+    },
+    "J. BACKTRACKING QUESTIONS": {
+      "Absolute Core": [
+        "Subsets",
+        "Subsets II",
+        "Permutations",
+        "Permutations II",
+        "Combinations",
+        "Combination Sum",
+        "Combination Sum II",
+        "Letter Combinations of a Phone Number",
+        "Generate Parentheses",
+        "Palindrome Partitioning",
+      ],
+      "Grid / Search": [
+        "Word Search",
+        "Word Search II",
+        "Rat in a Maze",
+        "N-Queens",
+        "N-Queens II",
+      ],
+      "String / Construction": [
+        "Restore IP Addresses",
+        "Split String Into Descending Consecutive Values",
+        "Expression Add Operators",
+      ],
+      "Company Focus": {
+        Amazon: ["Word Search II", "Combination Sum", "Subsets II"],
+        Microsoft: ["Permutations II", "N-Queens", "Generate Parentheses"],
+      },
+      "Target Count": ["15–20 problems only"],
+    },
+
+    "K. TREES": {
       "DFS Traversal": [
         "Binary Tree Preorder Traversal",
         "Binary Tree Inorder Traversal",
@@ -861,7 +913,7 @@ export const QUESTION_DATA = {
         "Find Largest BST Subtree",
       ],
     },
-    "J. GRAPHS": {
+    "L. GRAPHS": {
       "BFS - Shortest Path": [
         "Number of Islands",
         "Flood Fill",
@@ -985,7 +1037,75 @@ export const QUESTION_DATA = {
         "Number of Ways to Reorder Array to Get Same BST",
       ],
     },
-    "K. STRING QUESTIONS": {
+    "M. GREEDY QUESTIONS": {
+      "Core Greedy": [
+        "Jump Game",
+        "Jump Game II",
+        "Gas Station",
+        "Candy",
+        "Partition Labels",
+        "Lemonade Change",
+        "Assign Cookies",
+        "Boats to Save People",
+        "Task Scheduler",
+        "Reorganize String",
+      ],
+      "Interval / Scheduling Greedy": [
+        "Non-overlapping Intervals",
+        "Minimum Number of Arrows to Burst Balloons",
+        "Meeting Rooms",
+        "Activity Selection Problem",
+      ],
+      "Advanced Greedy (Amazon Favorite)": [
+        "Minimum Cost to Hire K Workers",
+        "Furthest Building You Can Reach",
+        "IPO",
+        "Minimum Number of Refueling Stops",
+      ],
+      "Company Focus": {
+        Amazon: ["Greedy + Heap problems"],
+        Microsoft: ["Pure Greedy correctness & proof"],
+      },
+      "Target Count": ["18–22 problems"],
+    },
+    "N. DYNAMIC PROGRAMMING QUESTIONS": {
+      "1D DP (Foundation)": [
+        "Climbing Stairs",
+        "House Robber",
+        "House Robber II",
+        "Fibonacci Number",
+        "Min Cost Climbing Stairs",
+        "Maximum Subarray (Kadane)",
+      ],
+      "2D DP / Grid": [
+        "Unique Paths",
+        "Unique Paths II",
+        "Minimum Path Sum",
+        "Triangle",
+        "Dungeon Game",
+      ],
+      "Subsequence DP": [
+        "Longest Increasing Subsequence",
+        "Longest Common Subsequence",
+        "Edit Distance",
+        "Palindrome Partitioning II",
+      ],
+      "Knapsack-Style DP (Amazon Favorite)": [
+        "0/1 Knapsack",
+        "Partition Equal Subset Sum",
+        "Coin Change",
+        "Coin Change II",
+        "Target Sum",
+      ],
+      "String DP (Microsoft Favorite)": [
+        "Decode Ways",
+        "Regular Expression Matching",
+        "Wildcard Matching",
+      ],
+      "Target Count": ["22–25 problems only", "More is unnecessary"],
+    },
+
+    "O. STRING QUESTIONS": {
       "Two Pointer / Palindrome": [
         "Valid Palindrome",
         "Palindrome Number",
@@ -1005,7 +1125,7 @@ export const QUESTION_DATA = {
         "Longest Duplicate Substring",
       ],
     },
-    "L. BIT MANIPULATION QUESTIONS": {
+    "P. BIT MANIPULATION QUESTIONS": {
       "Core Logic": ["XOR properties", "Masking", "Power-of-two tricks"],
       "Basic Bit Problems": [
         "Single Number",
@@ -1018,14 +1138,14 @@ export const QUESTION_DATA = {
       ],
       Bitmasking: ["Subsets (Bitmask)"],
     },
-    "M. MATH QUESTIONS": {
+    "Q. MATH QUESTIONS": {
       "Number Theory": ["GCD of Array", "LCM Problems"],
       "Prime / Counting": ["Count Primes"],
       Combinatorics: ["Permutation Sequence", "Combination Sum IV"],
       "Math + DP": ["Integer Break"],
       Utilities: ["Modular Exponentiation"],
     },
-    "N. DESIGN QUESTIONS": {
+    "R. DESIGN QUESTIONS": {
       "Cache Design": ["LRU Cache (HashMap + DLL)", "LFU Cache"],
       "HashMap-Based Design": [
         "Design Twitter",
@@ -1785,7 +1905,59 @@ export const QUESTION_DATA = {
         "Maximum Number of Ways to Partition an Array",
       ],
     },
-    "I. DP Hybrids": {
+    "I. RECURSION QUESTIONS": {
+      "Must-Do (Base Case & Stack Flow)": [
+        "Factorial",
+        "Fibonacci Number",
+        "Power(x, n)",
+        "Reverse String (recursive)",
+        "Reverse Linked List (recursive)",
+        "Print All Subsequences of a String",
+        "Generate All Subsets (recursive view)",
+        "Tower of Hanoi",
+        "Sum of Digits",
+        "Check Palindrome (recursive)",
+      ],
+      "Interview Intent": [
+        "Base case correctness",
+        "Recursive stack flow understanding",
+        "Ability to explain recursion vs optimization",
+      ],
+      Guideline: ["Do not over-invest", "10–12 questions are enough"],
+    },
+    "J. BACKTRACKING QUESTIONS": {
+      "Absolute Core": [
+        "Subsets",
+        "Subsets II",
+        "Permutations",
+        "Permutations II",
+        "Combinations",
+        "Combination Sum",
+        "Combination Sum II",
+        "Letter Combinations of a Phone Number",
+        "Generate Parentheses",
+        "Palindrome Partitioning",
+      ],
+      "Grid / Search": [
+        "Word Search",
+        "Word Search II",
+        "Rat in a Maze",
+        "N-Queens",
+        "N-Queens II",
+      ],
+      "String / Construction": [
+        "Restore IP Addresses",
+        "Split String Into Descending Consecutive Values",
+        "Expression Add Operators",
+      ],
+      "Company Focus": {
+        Amazon: ["Word Search II", "Combination Sum", "Subsets II"],
+        Microsoft: ["Permutations II", "N-Queens", "Generate Parentheses"],
+      },
+      "Target Count": ["15–20 problems only"],
+    },
+
+    "K. DP Hybrids": {
       "DP + Binary Search": [
         "Longest Increasing Subsequence (Binary Search optimized)",
         "Russian Doll Envelopes",
@@ -1907,7 +2079,7 @@ export const QUESTION_DATA = {
         "Count Vowel Permutations",
       ],
     },
-    "J. STRING HYBRIDS": {
+    "L. STRING HYBRIDS": {
       "String + DP": [
         "Longest Common Subsequence",
         "Edit Distance",
