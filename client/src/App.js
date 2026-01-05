@@ -10,7 +10,7 @@ import {
   getProgress,
   toggleQuestion as apiToggleQuestion,
 } from "./services/api";
-import { countPart3Questions, countPart4Questions } from "./utils/questionUtils";
+import { countPart3Questions, countPart4Questions, countCompletedPart3Questions, countCompletedPart4Questions } from "./utils/questionUtils";
 import "./App.css";
 
 function App() {
@@ -140,6 +140,8 @@ function App() {
   const stats = calculateStats();
   const part3Count = countPart3Questions();
   const part4Count = countPart4Questions();
+  const part3Completed = countCompletedPart3Questions(completedQuestions);
+  const part4Completed = countCompletedPart4Questions(completedQuestions);
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
@@ -169,7 +171,13 @@ function App() {
       </header>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Dashboard stats={stats} part3Count={part3Count} part4Count={part4Count} />
+        <Dashboard 
+          stats={stats} 
+          part3Count={part3Count} 
+          part4Count={part4Count}
+          part3Completed={part3Completed}
+          part4Completed={part4Completed}
+        />
 
         {/* Search */}
         <div className="mb-6">

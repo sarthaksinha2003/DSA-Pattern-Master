@@ -181,6 +181,129 @@ export function countPart4Questions() {
   return total;
 }
 
+export function countCompletedPart3Questions(completedQuestions) {
+  const part1 = QUESTION_DATA["PART 1: SOLO PATTERNS"];
+  const part3 = QUESTION_DATA["PART 3: SOLO INTERVIEW FILTER"];
+
+  if (!part1 || !part3 || !completedQuestions) {
+    return 0;
+  }
+
+  let completed = 0;
+
+  for (const sectionKey in part3) {
+    const section = part3[sectionKey];
+
+    const doTopics =
+      section["DO"] ||
+      section["DO (IMPORTANT)"] ||
+      section["DO (VERY IMPORTANT)"] ||
+      section["DO (HIGH PRIORITY)"] ||
+      section["DO (MUST DO ALL)"] ||
+      section["DO (EXTREMELY IMPORTANT)"];
+
+    if (!Array.isArray(doTopics)) continue;
+
+    const part1Section = part1[sectionKey];
+    if (!part1Section) continue;
+
+    for (const topic of doTopics) {
+      for (const subTopic in part1Section) {
+        if (subTopic.includes(topic)) {
+          const questions = part1Section[subTopic];
+          if (Array.isArray(questions)) {
+            for (let i = 0; i < questions.length; i++) {
+              if (completedQuestions[questions[i]]) {
+                completed++;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  return completed;
+}
+
+export function countCompletedPart4Questions(completedQuestions) {
+  const part2 = QUESTION_DATA["PART 2: HYBRID PATTERNS"];
+  const part4 = QUESTION_DATA["PART 4: HYBRID INTERVIEW FILTER"];
+
+  if (!part2 || !part4 || !completedQuestions) {
+    return 0;
+  }
+
+  let completed = 0;
+
+  for (const part4SectionKey in part4) {
+    const part4Section = part4[part4SectionKey];
+    if (!part4Section || typeof part4Section !== "object") continue;
+
+    // Normalize PART 4 section name for matching
+    const normalizedPart4Section = part4SectionKey.toLowerCase().trim();
+
+    // Find matching section in PART 2
+    let part2Section = null;
+    for (const part2SectionKey in part2) {
+      const normalizedPart2Section = part2SectionKey.toLowerCase().trim();
+      
+      // Match section names (handle case differences)
+      if (
+        normalizedPart2Section === normalizedPart4Section ||
+        normalizedPart2Section.replace(/^[a-z]\.\s*/i, "").trim() === normalizedPart4Section.replace(/^[a-z]\.\s*/i, "").trim() ||
+        normalizedPart2Section.includes(normalizedPart4Section.replace(/^[a-z]\.\s*/i, "")) ||
+        normalizedPart4Section.includes(normalizedPart2Section.replace(/^[a-z]\.\s*/i, ""))
+      ) {
+        part2Section = part2[part2SectionKey];
+        break;
+      }
+    }
+
+    if (!part2Section) continue;
+
+    const doTopics =
+      part4Section["DO"] ||
+      part4Section["DO (IMPORTANT)"] ||
+      part4Section["DO (VERY IMPORTANT)"] ||
+      part4Section["DO (HIGH PRIORITY)"] ||
+      part4Section["DO (MUST DO ALL)"] ||
+      part4Section["DO (EXTREMELY IMPORTANT)"] ||
+      part4Section["DO (LIMITED)"];
+
+    if (!Array.isArray(doTopics)) continue;
+
+    for (const topic of doTopics) {
+      const normalizedTopic = topic.toLowerCase().trim();
+      
+      for (const subTopic in part2Section) {
+        const normalizedSubTopic = subTopic.toLowerCase().trim();
+        
+        // Check if subTopic matches the topic
+        if (
+          normalizedSubTopic === normalizedTopic ||
+          normalizedSubTopic.includes(normalizedTopic) ||
+          normalizedTopic.includes(normalizedSubTopic) ||
+          // Handle partial matches for hybrid patterns with "+"
+          (normalizedTopic.includes("+") && normalizedTopic.split("+").every(part => normalizedSubTopic.includes(part.trim()))) ||
+          (normalizedSubTopic.includes("+") && normalizedSubTopic.split("+").every(part => normalizedTopic.includes(part.trim())))
+        ) {
+          const questions = part2Section[subTopic];
+          if (Array.isArray(questions)) {
+            for (let i = 0; i < questions.length; i++) {
+              if (completedQuestions[questions[i]]) {
+                completed++;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  return completed;
+}
+
 export function isRecommendedByPart4(sectionName, subCategoryName) {
   const part2 = QUESTION_DATA["PART 2: HYBRID PATTERNS"];
   const part4 = QUESTION_DATA["PART 4: HYBRID INTERVIEW FILTER"];
