@@ -738,20 +738,14 @@ export const QUESTION_DATA = {
         "Factorial",
         "Fibonacci Number",
         "Power(x, n)",
-        "Reverse String (recursive)",
-        "Reverse Linked List (recursive)",
+        "Reverse String (Recursive)",
+        "Reverse Linked List (Recursive)",
         "Print All Subsequences of a String",
-        "Generate All Subsets (recursive view)",
+        "Generate All Subsets (Recursive View)",
         "Tower of Hanoi",
         "Sum of Digits",
-        "Check Palindrome (recursive)",
+        "Check Palindrome (Recursive)",
       ],
-      "Interview Intent": [
-        "Base case correctness",
-        "Recursive stack flow understanding",
-        "Ability to explain recursion vs optimization",
-      ],
-      Guideline: ["Do not over-invest", "10–12 questions are enough"],
     },
     "J. BACKTRACKING QUESTIONS": {
       "Absolute Core": [
@@ -1905,59 +1899,8 @@ export const QUESTION_DATA = {
         "Maximum Number of Ways to Partition an Array",
       ],
     },
-    "I. RECURSION QUESTIONS": {
-      "Must-Do (Base Case & Stack Flow)": [
-        "Factorial",
-        "Fibonacci Number",
-        "Power(x, n)",
-        "Reverse String (recursive)",
-        "Reverse Linked List (recursive)",
-        "Print All Subsequences of a String",
-        "Generate All Subsets (recursive view)",
-        "Tower of Hanoi",
-        "Sum of Digits",
-        "Check Palindrome (recursive)",
-      ],
-      "Interview Intent": [
-        "Base case correctness",
-        "Recursive stack flow understanding",
-        "Ability to explain recursion vs optimization",
-      ],
-      Guideline: ["Do not over-invest", "10–12 questions are enough"],
-    },
-    "J. BACKTRACKING QUESTIONS": {
-      "Absolute Core": [
-        "Subsets",
-        "Subsets II",
-        "Permutations",
-        "Permutations II",
-        "Combinations",
-        "Combination Sum",
-        "Combination Sum II",
-        "Letter Combinations of a Phone Number",
-        "Generate Parentheses",
-        "Palindrome Partitioning",
-      ],
-      "Grid / Search": [
-        "Word Search",
-        "Word Search II",
-        "Rat in a Maze",
-        "N-Queens",
-        "N-Queens II",
-      ],
-      "String / Construction": [
-        "Restore IP Addresses",
-        "Split String Into Descending Consecutive Values",
-        "Expression Add Operators",
-      ],
-      "Company Focus": {
-        Amazon: ["Word Search II", "Combination Sum", "Subsets II"],
-        Microsoft: ["Permutations II", "N-Queens", "Generate Parentheses"],
-      },
-      "Target Count": ["15–20 problems only"],
-    },
 
-    "K. DP Hybrids": {
+    "I. DP Hybrids": {
       "DP + Binary Search": [
         "Longest Increasing Subsequence (Binary Search optimized)",
         "Russian Doll Envelopes",
@@ -2079,7 +2022,7 @@ export const QUESTION_DATA = {
         "Count Vowel Permutations",
       ],
     },
-    "L. STRING HYBRIDS": {
+    "J. STRING HYBRIDS": {
       "String + DP": [
         "Longest Common Subsequence",
         "Edit Distance",
@@ -2100,6 +2043,244 @@ export const QUESTION_DATA = {
       "Bit + Sliding Window": ["Longest Nice Subarray"],
       "Bit + Range Logic": ["Bitwise AND of Numbers Range"],
       "Bit + Prefix / XOR": ["Decode XORed Array"],
+    },
+  },
+  "PART 3: SOLO INTERVIEW FILTER": {
+    "A. ARRAYS": {
+      DO: [
+        "Traversal / Simulation",
+        "Two Pointers - Opposite Ends",
+        "Two Pointers - Same Direction",
+        "Two Pointers - Partitioning",
+        "Prefix Sum",
+        "Kadane Family",
+        "Sorting + Scan",
+        "Binary Search on Array",
+        "Array Edge / Index Logic",
+        "Array Math / Counting",
+        "Buffer / Completion",
+      ],
+      SKIP: ["Difference Array", "Array Advanced Traversal"],
+    },
+
+    "B. SLIDING WINDOW": {
+      DO: [
+        "Fixed Window",
+        "Variable Window - MAX Length",
+        "Variable Window - MIN Length",
+        "Count-Based Window",
+        "Window with Cost / Budget",
+      ],
+      SKIP: ["Sliding Window - Edge & Variants", "Completion / Buffer"],
+    },
+
+    "C. HASHMAP / HASHSET": {
+      DO: [
+        "Frequency Counting",
+        "Seen-Before / Lookup",
+        "Prefix Sum to Index Map",
+        "Grouping / Bucketing",
+        "HashSet Logic",
+      ],
+      SKIP: ["State Compression", "HashMap Edge / Variants"],
+    },
+
+    "D. BINARY SEARCH": {
+      DO: [
+        "Classic Binary Search",
+        "Lower / Upper Bound",
+        "Rotated Sorted Array",
+        "Peak / Valley",
+        "Binary Search on Answer",
+      ],
+      SKIP: [
+        "Binary Search with Counting",
+        "Binary Search on Strings",
+        "Edge / Advanced",
+      ],
+    },
+
+    "E. STACK": {
+      DO: [
+        "Matching Stack",
+        "Monotonic Stack - Increasing",
+        "Monotonic Stack - Decreasing",
+        "Index Stack",
+        "Stack Simulation / Design",
+      ],
+      SKIP: ["Expression Evaluation", "Stack Edge / Variants"],
+    },
+
+    "F. HEAP / PRIORITY QUEUE": {
+      DO: ["Top-K / Kth", "Streaming / Online", "Scheduling (Pure Heap usage)"],
+      SKIP: ["Two-Heap Technique", "Utility / Frequency"],
+    },
+
+    "G. INTERVAL QUESTIONS": {
+      DO: [
+        "Interval Operations",
+        "Overlap Control",
+        "Scheduling",
+        "Greedy Intervals",
+      ],
+      SKIP: ["Calendar Design"],
+    },
+
+    "H. LINKED LIST": {
+      DO: [
+        "Fast-Slow Pointer",
+        "Reverse Pointers",
+        "Merge Lists",
+        "Dummy Node Technique",
+        "Cycle Manipulation",
+      ],
+      SKIP: ["Transformations", "Simulation / Design"],
+    },
+
+    "I. RECURSION QUESTIONS": {
+      DO: ["Must-Do (Base Case & Stack Flow)"],
+      SKIP: [],
+    },
+
+    "J. BACKTRACKING QUESTIONS": {
+      DO: ["Absolute Core", "Grid / Search"],
+      SKIP: ["String / Construction"],
+    },
+
+    "K. TREES": {
+      DO: [
+        "DFS Traversal",
+        "BFS Traversal",
+        "Height-Based",
+        "Path-Based",
+        "BST Property",
+        "Tree Construction",
+        "Tree Views",
+      ],
+      SKIP: ["Completion / Buffer", "Tree Edge / Variants"],
+    },
+
+    "L. GRAPHS": {
+      DO: [
+        "BFS - Shortest Path",
+        "DFS - Connectivity",
+        "Connected Components",
+        "Topological Sort",
+        "Union Find",
+      ],
+      SKIP: ["State Graph", "Completion / Buffer"],
+    },
+
+    "M. GREEDY QUESTIONS": {
+      DO: ["Core Greedy", "Interval / Scheduling Greedy"],
+      SKIP: ["Advanced Greedy (Amazon Favorite)"],
+    },
+
+    "N. DYNAMIC PROGRAMMING QUESTIONS": {
+      DO: [
+        "1D DP (Foundation)",
+        "2D DP / Grid",
+        "Subsequence DP",
+        "Knapsack-Style DP (Amazon Favorite)",
+      ],
+      SKIP: [],
+    },
+
+    "O. STRING QUESTIONS": {
+      DO: ["Two Pointer / Palindrome", "Parsing / Simulation", "Subsequence"],
+      SKIP: ["Rolling Hash (Basic)"],
+    },
+
+    "P. BIT MANIPULATION QUESTIONS": {
+      DO: ["Basic Bit Problems"],
+      SKIP: ["Bitmasking"],
+    },
+
+    "Q. MATH QUESTIONS": {
+      DO: ["Prime / Counting", "Utilities"],
+      SKIP: ["Combinatorics"],
+    },
+
+    "R. DESIGN QUESTIONS": {
+      SKIP: ["Cache Design", "HashMap-Based Design", "Advanced DS Composition"],
+    },
+  },
+
+  "PART 4: HYBRID INTERVIEW FILTER": {
+    "A. ARRAY / WINDOW / SUM HYBRIDS": {
+      DO: [
+        "Sliding Window + Prefix Sum",
+        "Sliding Window + HashMap",
+        "Window + Greedy",
+      ],
+      SKIP: ["Buffer / Edge Hybrids"],
+    },
+
+    "B. BINARY SEARCH HYBRIDS": {
+      DO: ["Binary Search + Greedy"],
+      SKIP: [
+        "Binary Search + Graph",
+        "Binary Search + Union Find",
+        "Edge / Mixed Binary Search",
+      ],
+    },
+
+    "C. STACK HYBRIDS": {
+      DO: ["Stack + Prefix Sum", "Stack + Math / Range Logic", "Stack + Array"],
+      SKIP: [
+        "Stack + DP",
+        "Stack + Binary Search",
+        "Stack + Greedy Advanced",
+        "Edge / Mixed Stack Hybrids",
+      ],
+    },
+
+    "D. PRIORITY QUEUE HYBRIDS": {
+      DO: ["PQ + Graph", "PQ + Greedy"],
+      SKIP: ["PQ + DP"],
+    },
+
+    "E. INTERVAL HYBRIDS": {
+      DO: ["Interval + Heap", "Interval + Greedy"],
+      SKIP: ["Interval + DP"],
+    },
+
+    "F. TREE HYBRIDS": {
+      DO: ["DFS + DP (Tree DP)", "DFS + Prefix Sum", "BFS + HashMap"],
+      SKIP: ["Tree + Binary Search (BST Hybrids)", "Tree + Advanced Variants"],
+    },
+
+    "G. GRAPH HYBRIDS": {
+      DO: ["Graph + BFS + State", "Graph + Greedy"],
+      SKIP: [
+        "Graph + DP",
+        "Graph + Binary Search",
+        "Advanced / Mixed Graph Hybrids",
+      ],
+    },
+
+    "H. BACKTRACKING HYBRIDS": {
+      DO: ["Backtracking + HashSet", "Backtracking + Bitmask"],
+      SKIP: [
+        "Backtracking + Graph",
+        "Backtracking + DP (Memoization)",
+        "Edge / Advanced Backtracking",
+      ],
+    },
+
+    "I. DP HYBRIDS": {
+      DO: ["DP + Binary Search", "DP + Prefix Sum", "DP + Sliding Window"],
+      SKIP: ["DP + Graph", "DP + Bitmask"],
+    },
+
+    "J. STRING HYBRIDS": {
+      DO: ["String + DP", "String + Stack"],
+      SKIP: ["String + Backtracking"],
+    },
+
+    "K. BIT HYBRIDS": {
+      DO: ["Bit + Sliding Window", "Bit + Prefix / XOR"],
+      SKIP: ["Bit + Trie / Greedy"],
     },
   },
 };
